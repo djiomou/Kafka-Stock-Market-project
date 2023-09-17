@@ -1,0 +1,19 @@
+Step 1: Update the System:
+
+To begin, it’s important to ensure that your Amazon Linux system is up to date. Open a terminal or SSH into your instance and execute the following command:
+
+sudo dnf update -y
+
+This command will update all the installed packages on your system, ensuring you have the latest software versions.
+Step 2: Download and Install Java:
+
+Amazon Linux uses OpenJDK, which is an open-source implementation of Java. Execute the following command to install OpenJDK on your system:
+
+sudo dnf install java-17-amazon-corretto-devel
+
+This command will download and install the Java Development Kit (JDK) version 1.8 on your Amazon Linux instance. Feel free to adjust the version number based on your specific requirements.
+Step 3: Verify the Installation:
+
+Once the installation process completes, you can verify that Java is successfully installed by running the following command:
+
+java -version
